@@ -17,8 +17,21 @@
         <!-- Creating the header -->
         <header class="main-header navbar">
             <a href="<?php echo esc_url(home_url()); ?>">
-            <!-- Image -->
-            <img src="<?php echo esc_url(home_url('wp-content/themes/Assignment1-2026/assignmentone/ratfigurine.png')); ?>" alt="coffee brand logo">
+                <!-- Image -->
+                <img src="<?php echo esc_url(home_url('wp-content/themes/Assignment1-2026/assignmentone/ratfigurine.png')); ?>" alt="Image of a clay rat figurine.">
+            </a>
+<!-- Navbar -->
+<nav>
+    <?php
+        wc_nav_menu(array(
+            'menu' => 'main',
+            'theme_location' => '',
+            'depth' => 2,
+            'fallback_cb' => false
+        ));
+    ?>
 
+</nav>
+</header>
 
 
