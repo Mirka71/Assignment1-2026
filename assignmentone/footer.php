@@ -1,5 +1,5 @@
 <footer>
-      <p>Custom Theme for Assignment-1</p>
+      <p>A collection of my proudest clay projects!</p>
     </footer>
   </body>
 </html>
